@@ -7,7 +7,8 @@ This is a programming exercise, using React and JSX, to build an interactive Tic
 Download all of the files within this repository, and load the index.html file in a web browser. This app can run while hosted either on a local or remote web server. For a live preview, you can run the index.html file in this repo, directly, by visting this URL: https://dcdiaz.github.io/tic-tac-toe/
 
 ## Roadmap
-- If a square has already been selected, prevent it from being clicked again.
+- Add a "Reset Game" button, which would clear the current game board and allow the players to start over.
+- Add a validation feature that would prevent a previously selected square (button) from being clicked on again.
 
 ## Support
 I can be reached via email at david@d2weblogic.com, or connect with me on LinkedIn at https://www.linkedin.com/in/david-diaz-b64aa88a/
