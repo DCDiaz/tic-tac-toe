@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  button {
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  .game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    color: rgb(204, 28, 28);
+    /*border: 6px solid #0b0d0f;*/
+    border-radius: 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
+  .grid-row {
+    /*border: 6px solid #739dc7;*/
+    /*border-radius: 6px;*/
+    column-gap: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*background-color: rgb(175, 70, 70);*/
+  }
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid green;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
+
+  #info {
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  h1 {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .red {
+    color: #A00;
+  }
+
+  .green {
+    color: #0A0;
+  }
